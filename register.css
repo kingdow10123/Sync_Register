@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #F08000;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #A5A5A5;
+  margin-bottom: 32px;
+}
+
+.highlight {
+  color: #F08000;
+}
+
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.image-wrapper img {
+  max-width: 80%;
+  height: auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #F08000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 30px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #d76f00;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.resend-link {
+  font-size: 16px;
+  color: #F08000;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
